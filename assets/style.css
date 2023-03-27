@@ -1,0 +1,93 @@
+:root {
+    --main: #0096cc;
+    --main-dark: #005472;
+    --dark: #262a3b;
+    --light: #c5c5c5;
+    --offwhite: rgb(179, 179, 179);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 5px 0;
+    align-items: center;
+    background-color: var(--dark)
+}
+
+.logo {
+    font-size: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: var(--light);
+    background-color: var(--main-dark);
+    padding: .5% 1% .5% 6% 
+}
+
+.links, .link-hover {
+    text-decoration: underline;
+    text-decoration-thickness: .5rem;
+    text-decoration-color: var(--main-dark);
+    font-size: 2.3rem;
+    color: var(--light);
+    cursor: pointer;
+    list-style: none;    
+}
+
+.links {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+   
+}
+
+.link-hover {
+    transition: all .3s ease 0s;
+}
+
+.link-hover:hover {
+    color: var(--main);
+    font-size: 2.5rem;
+}
+
+.head-image {
+    width: 10%;
+    height: auto;
+    margin: 1% 1% 1.5% 5%; 
+    border: solid var(--dark);
+    border-radius: 20px;
+}
+
+main {
+    background-color: var(--offwhite);
+}
+
+h2 {
+    font-size: 4rem;
+    color: var(--dark)
+}
+
+p, .about {
+    color: var(--main-dark);
+    font-size: 2rem;
+}
+
+footer {
+    background-color: var(--offwhite);
+}
+@media screen and(min-width: 768px) {
+
+}
+
+@media screen and(min-width: 992px) {
+
+}
