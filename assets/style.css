@@ -92,6 +92,9 @@ main {
     border-right: 5px solid var(--main-dark);
     padding: 0 1% 0 1%;
     height: 10%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .right-side {
@@ -106,6 +109,12 @@ main {
     height: 30%;
 }
 
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 #ul-links {
     list-style: none;
     display:flex;
@@ -115,7 +124,7 @@ main {
     align-content: center;
 }
 
-.contact-me-decoration, a {
+.email-github {
     text-decoration-color: var(--main-dark);
     text-decoration-thickness: .3rem;
     color: inherit; 
