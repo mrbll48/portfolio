@@ -11,19 +11,108 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
 html {
     font-size: 62.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 5px 0 5px 0;
+    background-color: var(--dark);
+}
+
+#name-title {
+    font-size: 3rem;
+    color: var(--light);
+    background-color: var(--main-dark);
+    padding: .3rem 1rem .3rem 10rem;
+    font-weight: 500;
+}
+
+#navigation-links {
+    font-size: 2.3rem;
+}
+
+.navigation-links {
+    display: inline;
+    padding: 0 15px 0 5px;
+}
+
+.navigation-links, .links-hover {
+    text-decoration: underline;
+    text-decoration-thickness: .5rem;
+    text-decoration-color: var(--main-dark);
+    list-style: none;
+    color: var(--light)
+}
+
+.links-hover {
+    cursor: pointer;
+}
+
+.links-hover:hover {
+    transition: all .3s ease 0s;
+    font-size: 2.5rem;
+    color: var(--links)
+}
+
+#head-image {
+    border-radius: 20px;
+    width: 10%;
+    margin: 1% 0 1% 4%;
+    border: solid var(--dark) 1px;
+
+}
+
+div {
+    background-color: var(--offwhite);
+}
+
+main {
+    background-color: var(--offwhite);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.left-side {
+    font-size: 3rem;
+    color: var(--dark);
+    width: 17%;
+    border-right: 5px solid var(--main-dark);
+    padding: 0 1% 0 1%;
+    height: 10%;
+}
+
+.right-side {
+    padding: 0 3% 0 3%;
+    font-size: 2rem;
+    color: var(--dark);
+    width: 80%;
+    height: 10%
+}
+
+#work, #left-work {
+    height: 30%;
+}
+/*
+header {
+    display: flex;
+    justify-content: space-between;
     padding: 5px 0 5px 0;
     align-items: center;
-    background-color: var(--dark)
+    background-color: var(--dark);
+    
 }
 
 .logo {
@@ -75,26 +164,42 @@ div {
 main {
     background-color: var(--offwhite);
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     padding: 0 0 0 2%;
-    flex-wrap: wrap;
-    
+    height: 100%;
+
 }
 
-h2 {
+.left-side {
     font-size: 4rem;
     color: var(--dark);
     margin: 0 5% 0 0;
+    border-right: 3px solid var(--main-dark);
+    margin: 10px;
+    width: 250px;
 }
 
-p, .about {
+.section-item {
     color: var(--main-dark);
     font-size: 2rem;
-    list-style: none;
+    border: 3px solid var(--main-dark);
+    width: 500px;
+    margin: 10px;
+    flex: 5;
+    padding: 5px;
 }
 
-.about {
-    display: inline;
+.contact-links {
+    display: flex;
+    flex-direction: row;
+}
+
+#contact-me {
+    width: 80%;
+}
+
+.contact-me {
+    list-style: none;
 }
 
 .email-github  {
@@ -111,16 +216,29 @@ p, .about {
 
 .main-content {
     display: inline-flex;
+    width: 100%;
+    height: 25%;
    
+}
+
+#about-me {
+    height: 10%;
 }
 
 footer {
     background-color: var(--offwhite);
 }
-@media screen and(min-width: 768px) {
 
+/*
+@media screen and(min-width: 768px) {
+    .main-content {
+        width: 75%;
+    }
 }
 
 @media screen and(min-width: 992px) {
-
+    .main-content {
+        width: 100%;
+    }
 }
+*/
