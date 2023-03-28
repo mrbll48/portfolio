@@ -110,7 +110,12 @@ main {
     list-style: none;
     display:flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: center;
 }
+
+
 /*
 header {
     display: flex;
