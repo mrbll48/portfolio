@@ -115,6 +115,11 @@ main {
     align-content: center;
 }
 
+.contact-me-decoration, a {
+    text-decoration-color: var(--main-dark);
+    text-decoration-thickness: .3rem;
+    color: inherit; 
+}
 
 /*
 header {
