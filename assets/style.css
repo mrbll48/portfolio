@@ -105,6 +105,12 @@ main {
 #work, #left-work {
     height: 30%;
 }
+
+#ul-links {
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+}
 /*
 header {
     display: flex;
