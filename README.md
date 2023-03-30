@@ -10,7 +10,8 @@ Welcome to my portfolio, this is a work in progress. This portfolio will eventua
 The website header has navigation links that will take you to the sections after which they are named. The pictures in the 'My Work' section are all clickable links except for the coming soon image, the links will take you to the deployed projects. 
 
 ## Credits
-Juan Santiago
+Juan Santiago - Tutor
+Skillthrive on youtube
 
 ## License
 MIT 
