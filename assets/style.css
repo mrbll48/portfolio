@@ -1,205 +1,213 @@
 :root {
-    --main: #0096cc;
-    --main-dark: #005472;
-    --dark: #262a3b;
-    --light: #c5c5c5;
-    --offwhite: rgb(179, 179, 179);
-    --links: rgb(46, 219, 219);
+  --main: #0096cc;
+  --main-dark: #005472;
+  --dark: #262a3b;
+  --light: #c5c5c5;
+  --offwhite: rgb(179, 179, 179);
+  --links: rgb(46, 219, 219);
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 62.5%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 body {
-    height: auto;
+  height: auto;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 0 5px 0;
-    background-color: var(--dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0 5px 0;
+  background-color: var(--dark);
 }
 
 #name-title {
-    font-size: 3rem;
-    color: var(--light);
-    background-color: var(--main-dark);
-    padding: .3rem 1rem .3rem 10rem;
-    font-weight: 500;
+  font-size: 3rem;
+  color: var(--light);
+  background-color: var(--main-dark);
+  padding: 0.3rem 1rem 0.3rem 10rem;
+  font-weight: 500;
 }
 
 #navigation-links {
-    font-size: 2.3rem;
+  font-size: 2.3rem;
 }
 
 .navigation-links {
-    display: inline;
-    padding: 0 15px 0 5px;
+  display: inline;
+  padding: 0 15px 0 5px;
 }
 
-.navigation-links, .links-hover {
-    text-decoration: underline;
-    text-decoration-thickness: .5rem;
-    text-decoration-color: var(--main-dark);
-    list-style: none;
-    color: var(--light)
+.navigation-links,
+.links-hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5rem;
+  text-decoration-color: var(--main-dark);
+  list-style: none;
+  color: var(--light);
 }
 
 .links-hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .links-hover:hover {
-    transition: all .3s ease 0s;
-    font-size: 2.5rem;
-    color: var(--links)
+  transition: all 0.3s ease 0s;
+  font-size: 2.5rem;
+  color: var(--links);
 }
 
 #head-image {
-    border-radius: 20px;
-    width: 10%;
-    margin: 1% 0 1% 4%;
-    border: solid var(--dark) 1px;
-
+  border-radius: 20px;
+  width: 10%;
+  margin: 1% 0 1% 4%;
+  border: solid var(--dark) 1px;
 }
 
 div {
-    background-color: var(--offwhite);
+  background-color: var(--offwhite);
 }
 
 main {
-    background-color: var(--offwhite);
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+  background-color: var(--offwhite);
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .left-side {
-    font-size: 3rem;
-    color: var(--dark);
-    width: 17%;
-    border-right: 5px solid var(--main-dark);
-    padding: 0 1% 0 1%;
-    height: 10%;
-    display: flex;
-    flex-wrap: wrap;
+  font-size: 3rem;
+  color: var(--dark);
+  width: 17%;
+  border-right: 5px solid var(--main-dark);
+  padding: 0 1% 0 1%;
+  height: 10%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .right-side {
-    padding: 0 3% 0 3%;
-    font-size: 2rem;
-    color: var(--dark);
-    width: 80%;
-    height: 10%
+  padding: 0 3% 0 3%;
+  font-size: 2rem;
+  color: var(--dark);
+  width: 80%;
+  height: 10%;
 }
 
-#left-work, #left-contact {
-    margin: 5rem 0 3rem 0;
+#left-work,
+#left-contact {
+  margin: 5rem 0 3rem 0;
 }
 
 #right-contact {
-    margin: 5rem 0 0 0;
+  margin: 5rem 0 0 0;
 }
 
 #work {
-    margin: 5rem 0 3rem 0;
-    position: relative;
-    display: flex;
-   
+  margin: 5rem 0 3rem 0;
+  position: relative;
+  display: flex;
 }
 
-#work, #left-work {
-    height: auto;
+#work,
+#left-work {
+  height: auto;
 }
 
 #ul-links {
-    list-style: none;
-    display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    height: 100%;
-    align-content: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100%;
+  align-content: center;
 }
 
 .email-github {
-    text-decoration-color: var(--main-dark);
-    text-decoration-thickness: .3rem;
-    color: inherit; 
+  text-decoration-color: var(--main-dark);
+  text-decoration-thickness: 0.3rem;
+  color: inherit;
 }
 
 #horiseon-img {
-    width: 60%;
-    height: auto;
-    opacity: 0.5;
-    border-radius: 10px;
+  width: 60%;
+  height: auto;
+  opacity: 0.5;
+  border-radius: 10px;
 }
 
-#horiseon-img:hover, #coming-soon:hover {
-    opacity: 1;
-    transition: all .3s ease 0s;
-    
+#horiseon-img:hover,
+#coming-soon:hover {
+  opacity: 1;
+  transition: all 0.3s ease 0s;
 }
 
 #horiseon {
-    background-color: var(--main);
-    z-index: 1;
-    position: absolute;
-    top: 25%;
-    left: 27%;
+  background-color: var(--main);
+  z-index: 1;
+  position: absolute;
+  top: 25%;
+  left: 27%;
+}
+
+#messenger {
+  background-color: var(--main);
+  z-index: 1;
+  position: absolute;
+  top: 75%;
+  left: 8%;
 }
 
 #coming-soon {
-    height: auto;
-    width: 20%;
-    opacity: .5;
-    border-radius: 10px;
+  height: auto;
+  width: 20%;
+  opacity: 0.5;
+  border-radius: 10px;
 }
 
 #work-images {
-    
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .work-sample {
-    list-style: none;
-    padding: 0 0 0 0;
+  list-style: none;
+  padding: 0 0 0 0;
 }
 
 @media screen and (max-width: 992px) {
-    .left-side {
-        width: 100%;
-    }
-    .right-side {
-        width: 100%;
-    }
+  .left-side {
+    width: 100%;
+  }
+  .right-side {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 674px) {
-    header {
-        flex-direction: column;
-        width: 100%;
-    }
+  header {
+    flex-direction: column;
+    width: 100%;
+  }
 
-    #name-title {
-        width: 100%;
-        text-align: center;
-    }
-    
-    .navigation-links {
-        display: grid; 
-        width: 100%
-    }
+  #name-title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navigation-links {
+    display: grid;
+    width: 100%;
+  }
 }
